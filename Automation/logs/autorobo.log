@@ -1,0 +1,303 @@
+2022-02-25 15:39:08,515 [ INFO] com.aquent.autorobo.main.Launcher.main() : Initializing Application
+2022-02-25 15:39:08,596 [ INFO] com.aquent.autorobo.main.Launcher.main() : Application Mode: record
+2022-02-25 15:39:08,598 [ INFO] com.aquent.autorobo.main.Launcher.main() : Recording session will be using chrome browser, Make sure Chrome is installed and drivers are configured
+2022-02-25 15:39:09,399 [ INFO] com.aquent.autorobo.main.Launcher.recordScript() : Please wait. Intance is getting Ready
+2022-02-25 15:39:09,416 [DEBUG] com.aquent.autorobo.executor.SeleniumHelper.initChrome() : Loading chrome driver path from F:/Robohead/Automation/webdriver/chromedriver.exe
+2022-02-25 15:40:31,368 [ERROR] com.aquent.autorobo.main.Launcher.recordScript() : Unable to create instance 
+org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: crashed.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Users\Abc\AppData\Local\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-H5G6SCV', ip: '192.168.43.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x011F6903+2517251]
+	Ordinal0 [0x0118F8E1+2095329]
+	Ordinal0 [0x01092848+1058888]
+	Ordinal0 [0x010ADC70+1170544]
+	Ordinal0 [0x010AA2CF+1155791]
+	Ordinal0 [0x010DAAAF+1354415]
+	Ordinal0 [0x010DA71A+1353498]
+	Ordinal0 [0x010D639B+1336219]
+	Ordinal0 [0x010B27A7+1189799]
+	Ordinal0 [0x010B3609+1193481]
+	GetHandleVerifier [0x01385904+1577972]
+	GetHandleVerifier [0x01430B97+2279047]
+	GetHandleVerifier [0x01286D09+534521]
+	GetHandleVerifier [0x01285DB9+530601]
+	Ordinal0 [0x01194FF9+2117625]
+	Ordinal0 [0x011998A8+2136232]
+	Ordinal0 [0x011999E2+2136546]
+	Ordinal0 [0x011A3541+2176321]
+	BaseThreadInitThunk [0x776AFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x777F7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x777F7A6E+238]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at com.aquent.autorobo.executor.SeleniumHelper.initChrome(SeleniumHelper.java:698)
+	at com.aquent.autorobo.executor.SeleniumHelper.openBrowser(SeleniumHelper.java:879)
+	at com.aquent.autorobo.executor.SeleniumHelper.<init>(SeleniumHelper.java:74)
+	at com.aquent.autorobo.main.Launcher.recordScript(Launcher.java:122)
+	at com.aquent.autorobo.main.Launcher.main(Launcher.java:93)
+2022-02-25 15:40:39,282 [ INFO] com.aquent.autorobo.main.Launcher.main() : Initializing Application
+2022-02-25 15:40:39,286 [ INFO] com.aquent.autorobo.main.Launcher.main() : Application Mode: record
+2022-02-25 15:40:39,288 [ INFO] com.aquent.autorobo.main.Launcher.main() : Recording session will be using chrome browser, Make sure Chrome is installed and drivers are configured
+2022-02-25 15:40:39,381 [ INFO] com.aquent.autorobo.main.Launcher.recordScript() : Please wait. Intance is getting Ready
+2022-02-25 15:40:39,388 [DEBUG] com.aquent.autorobo.executor.SeleniumHelper.initChrome() : Loading chrome driver path from F:/Robohead/Automation/webdriver/chromedriver.exe
+2022-02-25 15:41:19,076 [DEBUG] com.aquent.autorobo.executor.SeleniumHelper.initChrome() : chrome instance created
+2022-02-25 15:41:19,400 [DEBUG] com.aquent.autorobo.executor.SeleniumHelper.openBrowser() : instance maximized
+2022-02-25 15:41:19,418 [DEBUG] com.aquent.autorobo.executor.SeleniumHelper.openBrowser() : script time updated
+2022-02-25 15:41:20,058 [ INFO] com.aquent.autorobo.main.Launcher.recordScript() : Please enter URL and start recording session once webpage is fully loaded.
+2022-02-25 15:41:20,291 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.recordScript() : 
+Select Option: 
+1: Start New Record Session 
+2: Continue Recording Session 
+3: Download Element List
+0: Close
+Enter option:
+2022-02-25 15:41:49,743 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.recordScript() : Creating new session. All exisitng recorded elements will be destroyed if recorded
+2022-02-25 15:41:49,753 [ERROR] com.aquent.autorobo.executor.ScriptExecutor.uploadScriptToPage() : https://sso.rajasthan.gov.in/signin URL is not supported for AutoRobo application. Enter valid Robohead URL and try again
+2022-02-25 15:41:49,753 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.recordScript() : 
+Select Option: 
+1: Start New Record Session 
+2: Continue Recording Session 
+3: Download Element List
+0: Close
+Enter option:
+2022-02-25 15:42:09,503 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.recordScript() : Creating new session. All exisitng recorded elements will be destroyed if recorded
+2022-02-25 15:42:09,512 [ERROR] com.aquent.autorobo.executor.ScriptExecutor.uploadScriptToPage() : https://sso.rajasthan.gov.in/signin URL is not supported for AutoRobo application. Enter valid Robohead URL and try again
+2022-02-25 15:42:09,512 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.recordScript() : 
+Select Option: 
+1: Start New Record Session 
+2: Continue Recording Session 
+3: Download Element List
+0: Close
+Enter option:
+2022-02-25 15:42:26,655 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.recordScript() : Creating new session. All exisitng recorded elements will be destroyed if recorded
+2022-02-25 15:42:26,666 [ERROR] com.aquent.autorobo.executor.ScriptExecutor.uploadScriptToPage() : https://sso.rajasthan.gov.in/signin URL is not supported for AutoRobo application. Enter valid Robohead URL and try again
+2022-02-25 15:42:26,667 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.recordScript() : 
+Select Option: 
+1: Start New Record Session 
+2: Continue Recording Session 
+3: Download Element List
+0: Close
+Enter option:
+2022-02-25 15:42:54,638 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.recordScript() : Creating new session. All exisitng recorded elements will be destroyed if recorded
+2022-02-25 15:42:54,648 [ERROR] com.aquent.autorobo.executor.ScriptExecutor.uploadScriptToPage() : https://sso.rajasthan.gov.in/signin URL is not supported for AutoRobo application. Enter valid Robohead URL and try again
+2022-02-25 15:42:54,648 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.recordScript() : 
+Select Option: 
+1: Start New Record Session 
+2: Continue Recording Session 
+3: Download Element List
+0: Close
+Enter option:
+2022-02-25 15:43:13,545 [ INFO] com.aquent.autorobo.main.Launcher.main() : Initializing Application
+2022-02-25 15:43:13,550 [ INFO] com.aquent.autorobo.main.Launcher.main() : Application Mode: record
+2022-02-25 15:43:13,551 [ INFO] com.aquent.autorobo.main.Launcher.main() : Recording session will be using chrome browser, Make sure Chrome is installed and drivers are configured
+2022-02-25 15:43:13,653 [ INFO] com.aquent.autorobo.main.Launcher.recordScript() : Please wait. Intance is getting Ready
+2022-02-25 15:43:13,659 [DEBUG] com.aquent.autorobo.executor.SeleniumHelper.initChrome() : Loading chrome driver path from F:/Robohead/Automation/webdriver/chromedriver.exe
+2022-02-25 15:43:17,930 [DEBUG] com.aquent.autorobo.executor.SeleniumHelper.initChrome() : chrome instance created
+2022-02-25 15:43:18,076 [DEBUG] com.aquent.autorobo.executor.SeleniumHelper.openBrowser() : instance maximized
+2022-02-25 15:43:18,090 [DEBUG] com.aquent.autorobo.executor.SeleniumHelper.openBrowser() : script time updated
+2022-02-25 15:43:18,106 [ INFO] com.aquent.autorobo.main.Launcher.recordScript() : Please enter URL and start recording session once webpage is fully loaded.
+2022-02-25 15:43:18,117 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.recordScript() : 
+Select Option: 
+1: Start New Record Session 
+2: Continue Recording Session 
+3: Download Element List
+0: Close
+Enter option:
+2022-02-25 15:43:31,059 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.recordScript() : Creating new session. All exisitng recorded elements will be destroyed if recorded
+2022-02-25 15:43:31,069 [ERROR] com.aquent.autorobo.executor.ScriptExecutor.uploadScriptToPage() : https://sso.rajasthan.gov.in/signin URL is not supported for AutoRobo application. Enter valid Robohead URL and try again
+2022-02-25 15:43:31,069 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.recordScript() : 
+Select Option: 
+1: Start New Record Session 
+2: Continue Recording Session 
+3: Download Element List
+0: Close
+Enter option:
+2022-02-25 15:44:02,115 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.recordScript() : Creating new session. All exisitng recorded elements will be destroyed if recorded
+2022-02-25 15:44:02,127 [ERROR] com.aquent.autorobo.executor.ScriptExecutor.uploadScriptToPage() : https://sso.rajasthan.gov.in/register URL is not supported for AutoRobo application. Enter valid Robohead URL and try again
+2022-02-25 15:44:02,128 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.recordScript() : 
+Select Option: 
+1: Start New Record Session 
+2: Continue Recording Session 
+3: Download Element List
+0: Close
+Enter option:
+2022-02-25 15:44:30,851 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.recordScript() : Enter File Name to Export: 
+2022-02-25 15:44:37,979 [ERROR] com.aquent.autorobo.executor.SeleniumHelper.getRecordedElementList() : Unable to get Elements due to session is not started or web page is redirected to new page 
+org.openqa.selenium.JavascriptException: javascript error: Unexpected token u in JSON at position 0
+  (Session info: chrome=96.0.4664.110)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-H5G6SCV', ip: '192.168.43.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Abc\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:1487}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 594cbe9cc3b9d65bbabdb7cdddbbe636
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:485)
+	at com.aquent.autorobo.executor.SeleniumHelper.getRecordedElementList(SeleniumHelper.java:496)
+	at com.aquent.autorobo.executor.ScriptExecutor.downloadElementList(ScriptExecutor.java:196)
+	at com.aquent.autorobo.executor.ScriptExecutor.recordScript(ScriptExecutor.java:163)
+	at com.aquent.autorobo.main.Launcher.recordScript(Launcher.java:129)
+	at com.aquent.autorobo.main.Launcher.main(Launcher.java:93)
+2022-02-25 15:44:37,994 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.downloadElementList() : Unable to download Element list
+2022-02-25 15:44:38,010 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.recordScript() : 
+Select Option: 
+1: Start New Record Session 
+2: Continue Recording Session 
+3: Download Element List
+0: Close
+Enter option:
+2022-02-25 15:45:56,739 [ INFO] com.aquent.autorobo.main.Launcher.main() : Initializing Application
+2022-02-25 15:45:56,750 [ INFO] com.aquent.autorobo.main.Launcher.main() : Application Mode: record
+2022-02-25 15:45:56,750 [ INFO] com.aquent.autorobo.main.Launcher.main() : Recording session will be using chrome browser, Make sure Chrome is installed and drivers are configured
+2022-02-25 15:45:56,843 [ INFO] com.aquent.autorobo.main.Launcher.recordScript() : Please wait. Intance is getting Ready
+2022-02-25 15:45:56,850 [DEBUG] com.aquent.autorobo.executor.SeleniumHelper.initChrome() : Loading chrome driver path from F:/Robohead/Automation/webdriver/chromedriver.exe
+2022-02-25 15:49:12,592 [ INFO] com.aquent.autorobo.main.Launcher.main() : Initializing Application
+2022-02-25 15:49:12,598 [ INFO] com.aquent.autorobo.main.Launcher.main() : Application Mode: record
+2022-02-25 15:49:12,598 [ INFO] com.aquent.autorobo.main.Launcher.main() : Recording session will be using chrome browser, Make sure Chrome is installed and drivers are configured
+2022-02-25 15:49:12,696 [ INFO] com.aquent.autorobo.main.Launcher.recordScript() : Please wait. Intance is getting Ready
+2022-02-25 15:49:12,703 [DEBUG] com.aquent.autorobo.executor.SeleniumHelper.initChrome() : Loading chrome driver path from F:/Robohead/Automation/webdriver/chromedriver.exe
+2022-02-25 15:49:17,055 [DEBUG] com.aquent.autorobo.executor.SeleniumHelper.initChrome() : chrome instance created
+2022-02-25 15:49:17,197 [DEBUG] com.aquent.autorobo.executor.SeleniumHelper.openBrowser() : instance maximized
+2022-02-25 15:49:17,225 [DEBUG] com.aquent.autorobo.executor.SeleniumHelper.openBrowser() : script time updated
+2022-02-25 15:49:17,358 [ INFO] com.aquent.autorobo.main.Launcher.recordScript() : Please enter URL and start recording session once webpage is fully loaded.
+2022-02-25 15:49:17,371 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.recordScript() : 
+Select Option: 
+1: Start New Record Session 
+2: Continue Recording Session 
+3: Download Element List
+0: Close
+Enter option:
+2022-02-25 15:51:21,961 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.recordScript() : Creating new session. All exisitng recorded elements will be destroyed if recorded
+2022-02-25 15:51:21,971 [ERROR] com.aquent.autorobo.executor.ScriptExecutor.uploadScriptToPage() : https://www.facebook.com/login/ URL is not supported for AutoRobo application. Enter valid Robohead URL and try again
+2022-02-25 15:51:21,972 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.recordScript() : 
+Select Option: 
+1: Start New Record Session 
+2: Continue Recording Session 
+3: Download Element List
+0: Close
+Enter option:
+2022-02-25 15:51:40,094 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.recordScript() : Creating new session. All exisitng recorded elements will be destroyed if recorded
+2022-02-25 15:51:40,102 [ERROR] com.aquent.autorobo.executor.ScriptExecutor.uploadScriptToPage() : https://www.facebook.com/login/ URL is not supported for AutoRobo application. Enter valid Robohead URL and try again
+2022-02-25 15:51:40,103 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.recordScript() : 
+Select Option: 
+1: Start New Record Session 
+2: Continue Recording Session 
+3: Download Element List
+0: Close
+Enter option:
+2022-02-25 15:56:50,079 [ INFO] com.aquent.autorobo.main.Launcher.main() : Initializing Application
+2022-02-25 15:56:50,085 [ INFO] com.aquent.autorobo.main.Launcher.main() : Application Mode: record
+2022-02-25 15:56:50,085 [ INFO] com.aquent.autorobo.main.Launcher.main() : Recording session will be using chrome browser, Make sure Chrome is installed and drivers are configured
+2022-02-25 15:56:50,186 [ INFO] com.aquent.autorobo.main.Launcher.recordScript() : Please wait. Intance is getting Ready
+2022-02-25 15:56:50,194 [DEBUG] com.aquent.autorobo.executor.SeleniumHelper.initChrome() : Loading chrome driver path from F:/Robohead/Automation/webdriver/chromedriver.exe
+2022-02-25 15:57:24,772 [DEBUG] com.aquent.autorobo.executor.SeleniumHelper.initChrome() : chrome instance created
+2022-02-25 15:57:24,915 [DEBUG] com.aquent.autorobo.executor.SeleniumHelper.openBrowser() : instance maximized
+2022-02-25 15:57:24,932 [DEBUG] com.aquent.autorobo.executor.SeleniumHelper.openBrowser() : script time updated
+2022-02-25 15:57:25,075 [ INFO] com.aquent.autorobo.main.Launcher.recordScript() : Please enter URL and start recording session once webpage is fully loaded.
+2022-02-25 15:57:25,089 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.recordScript() : 
+Select Option: 
+1: Start New Record Session 
+2: Continue Recording Session 
+3: Download Element List
+0: Close
+Enter option:
+2022-02-25 15:59:47,934 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.recordScript() : Creating new session. All exisitng recorded elements will be destroyed if recorded
+2022-02-25 15:59:48,136 [ INFO] com.aquent.autorobo.executor.SeleniumHelper.loadRecorderScript() : Uploading recorder script, Please wait!
+2022-02-25 15:59:54,973 [ INFO] com.aquent.autorobo.executor.SeleniumHelper.loadRecorderScript() : Recorder script uploaded
+2022-02-25 15:59:54,974 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.uploadScriptToPage() : Script Uploaded, Right click on element to compute location and save.
+2022-02-25 15:59:54,974 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.recordScript() : 
+Select Option: 
+1: Start New Record Session 
+2: Continue Recording Session 
+3: Download Element List
+0: Close
+Enter option:
+2022-02-25 16:09:19,238 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.recordScript() : Creating new session. All exisitng recorded elements will be destroyed if recorded
+2022-02-25 16:09:19,254 [ERROR] com.aquent.autorobo.executor.ScriptExecutor.uploadScriptToPage() : https://www.facebook.com/ URL is not supported for AutoRobo application. Enter valid Robohead URL and try again
+2022-02-25 16:09:19,255 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.recordScript() : 
+Select Option: 
+1: Start New Record Session 
+2: Continue Recording Session 
+3: Download Element List
+0: Close
+Enter option:
+2022-02-25 16:09:29,631 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.recordScript() : Creating new session. All exisitng recorded elements will be destroyed if recorded
+2022-02-25 16:09:29,640 [ERROR] com.aquent.autorobo.executor.ScriptExecutor.uploadScriptToPage() : https://www.facebook.com/ URL is not supported for AutoRobo application. Enter valid Robohead URL and try again
+2022-02-25 16:09:29,640 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.recordScript() : 
+Select Option: 
+1: Start New Record Session 
+2: Continue Recording Session 
+3: Download Element List
+0: Close
+Enter option:
+2022-02-25 16:10:06,505 [ INFO] com.aquent.autorobo.main.Launcher.main() : Initializing Application
+2022-02-25 16:10:06,510 [ INFO] com.aquent.autorobo.main.Launcher.main() : Application Mode: record
+2022-02-25 16:10:06,511 [ INFO] com.aquent.autorobo.main.Launcher.main() : Recording session will be using chrome browser, Make sure Chrome is installed and drivers are configured
+2022-02-25 16:10:06,611 [ INFO] com.aquent.autorobo.main.Launcher.recordScript() : Please wait. Intance is getting Ready
+2022-02-25 16:10:06,618 [DEBUG] com.aquent.autorobo.executor.SeleniumHelper.initChrome() : Loading chrome driver path from F:/Robohead/Automation/webdriver/chromedriver.exe
+2022-02-25 16:10:12,191 [DEBUG] com.aquent.autorobo.executor.SeleniumHelper.initChrome() : chrome instance created
+2022-02-25 16:10:12,358 [DEBUG] com.aquent.autorobo.executor.SeleniumHelper.openBrowser() : instance maximized
+2022-02-25 16:10:12,386 [DEBUG] com.aquent.autorobo.executor.SeleniumHelper.openBrowser() : script time updated
+2022-02-25 16:10:12,623 [ INFO] com.aquent.autorobo.main.Launcher.recordScript() : Please enter URL and start recording session once webpage is fully loaded.
+2022-02-25 16:10:12,664 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.recordScript() : 
+Select Option: 
+1: Start New Record Session 
+2: Continue Recording Session 
+3: Download Element List
+0: Close
+Enter option:
+2022-02-25 16:10:24,551 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.recordScript() : Creating new session. All exisitng recorded elements will be destroyed if recorded
+2022-02-25 16:10:24,561 [ERROR] com.aquent.autorobo.executor.ScriptExecutor.uploadScriptToPage() : https://www.facebook.com/ URL is not supported for AutoRobo application. Enter valid Robohead URL and try again
+2022-02-25 16:10:24,561 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.recordScript() : 
+Select Option: 
+1: Start New Record Session 
+2: Continue Recording Session 
+3: Download Element List
+0: Close
+Enter option:
+2022-02-25 16:10:54,518 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.recordScript() : Creating new session. All exisitng recorded elements will be destroyed if recorded
+2022-02-25 16:10:54,525 [ERROR] com.aquent.autorobo.executor.ScriptExecutor.uploadScriptToPage() : https://www.facebook.com/ URL is not supported for AutoRobo application. Enter valid Robohead URL and try again
+2022-02-25 16:10:54,525 [ INFO] com.aquent.autorobo.executor.ScriptExecutor.recordScript() : 
+Select Option: 
+1: Start New Record Session 
+2: Continue Recording Session 
+3: Download Element List
+0: Close
+Enter option:
