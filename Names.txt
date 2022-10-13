@@ -186,3 +186,15 @@ public class MouseTest extends BaseTest {
         Assertions.assertEquals("dropped", driver.findElement(By.id("drop-status")).getText());
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+New test
