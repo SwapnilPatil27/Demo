@@ -1,0 +1,38 @@
+Manual and Automation Interview questiones 
+
+1. What is Functional Testing and how to do
+2. What is white box and black box testing 
+3. What is test strategy
+4. Differance between Test case and Test Scenario
+5. What are the levels of testing
+6. Differance between smoke and sanity testing
+7. Explain STLC
+8. Differance between Regression and Retesting
+9. What is latent defect
+10. Differance between defect priority and defect severity
+11. Explain bug life cycle
+12. Example of equivala parttioing and boundary values analysis
+13. Exaplain Bug leckage and bug release
+14. What is use case 
+15. Example of low proority and hight severity 
+16. What are challenges faccing in software testing
+17. Explain adhoc testing
+18. What is performance testing 
+19. What is blocker
+20. What is masked defect
+21. Defect reporting atributes
+22. What is build and release 
+23. What is Alpha and Beta testing
+24. What is Collection 
+25. What is Hash map with example
+26. Reverse string programs 
+27. How to read data from Excel
+28. Hard Assertion and soft assertion
+29. Explain Junit annotations and example
+30. POM file content
+31. Explain SetpDefination file and example
+32. Explain Test Runner file and example
+33. Expain CICD pipline
+34. How to push build on Git
+35. Exaplin mavaen project structure
+
